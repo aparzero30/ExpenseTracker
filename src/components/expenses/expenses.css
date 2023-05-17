@@ -1,0 +1,12 @@
+.expenses {
+  max-width: 40vw;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.display-empty {
+  color: white;
+  width: 35vw;
+  text-align: center;
+  font-size: 2vw;
+}

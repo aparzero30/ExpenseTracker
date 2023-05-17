@@ -1,0 +1,12 @@
+.newExpense {
+  background-color: white;
+  max-height: max-content;
+  min-height: max-content;
+  height: max-content;
+  padding: 1vw;
+  min-width: 22vw;
+  max-width: 22vw;
+  margin: 1vh;
+  transition: all 0.5s;
+  box-shadow: 1px 1px #888888;
+}

@@ -1,0 +1,55 @@
+form {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vh;
+  transition: all 0.5s;
+}
+.expense-control {
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+.expense-control label {
+  width: 15vw;
+  margin: 0;
+  font-size: 1.3vw;
+  color: black;
+  font-weight: bolder;
+}
+.expense-control input {
+  width: 15vw;
+  font-size: 1.3vw;
+}
+.expense-action button {
+  width: 16vw;
+  height: 7vh;
+  border-radius: 5px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.new-expense-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.new-expense-button button {
+  width: 16vw;
+  height: 7vh;
+  border-radius: 5px;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: rgb(126, 126, 159);
+  color: white;
+}
+.add {
+  background-color: rgb(126, 126, 159);
+  color: white;
+}
